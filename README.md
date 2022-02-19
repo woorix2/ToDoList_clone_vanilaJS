@@ -19,3 +19,4 @@ ___
 - JS To Do List
 - Get Geolocation
 - Get Weather Information
+- Random Background Image
