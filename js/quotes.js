@@ -8,24 +8,24 @@ const quotes = [
         author: "Alexander Pope"
     },
     {
-        quote: "The best way to keep children home is to make the home atmosphere pleasant--and let the air out of the tires.",
-        author: "Dorothy Parker"
+        quote: "Tyranny cannot defeat the power of ideas.",
+        author: "Helen Keller"
     },
     {
         quote: "They are never alone that are accompanied with noble thoughts.",
         author: "Sir Philip Sidneyy"
     },
     {
-        quote: "The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed.",
-        author: "Carl Jung"
+        quote: "Laziness is nothing more than the habit of resting before you get tired.",
+        author: "Jules Renard"
     },
     {
         quote: "Some rise by sin, and some by virtue fall.",
         author: "William Shakespeare"
     },
     {
-        quote: "The most perfidious way of harming a cause consists of defending it deliberately with faulty arguments.",
-        author: "Friedrich Nietzsche"
+        quote: "Silence is the virtue of fools.",
+        author: "Sir Francis Bacon"
     },
     {
         quote: "We are none of us infallible--not even the youngest of us.",
@@ -41,7 +41,7 @@ const quotes = [
     }
 ]
 
-const quote = document.querySelector("#quote span:first-child");
+const quote = document.querySelector("#quote div:first-child");
 const author = document.querySelector("#quote span:last-child");
 
 const todatysQuote = quotes[Math.floor(Math.random() * quotes.length)];

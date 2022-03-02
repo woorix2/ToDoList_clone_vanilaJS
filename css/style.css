@@ -1,6 +1,12 @@
-.hidden {
-    display: none;
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@300;400;500;700&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
 }
+
+body{ }
+
+.hidden {display: none;}
 
 img {
     position:absolute;
@@ -12,4 +18,35 @@ img {
     bottom:0px;
     z-index: -1;
     opacity:80%;
-    }
+}
+
+#top_area { text-align: center;}
+
+#clock { 
+    margin: 0px auto;
+    width: 200px;
+    font-size: 50px;
+}
+
+#header {position: relative;}
+#quote {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #4B4453;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 300;
+}
+#no-war { position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #4B4453;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 300;}
+#forms {
+    margin: 100px auto;
+    width: 200px;
+}
+#forms 
