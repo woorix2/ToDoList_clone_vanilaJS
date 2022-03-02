@@ -1,4 +1,4 @@
-const API_KEY = '1ffb21f9c2ed7bdf9c0916dea0447223';
+const API_KEY = procees.env.OPENWEATHER_API_KEY;
 
 function onGeoOk(position) {
     const lat = position.coords.latitude;

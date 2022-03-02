@@ -47,6 +47,7 @@ img {
     font-weight: 300;}
 #forms {
     margin: 100px auto;
-    width: 200px;
+    width: 230px;
 }
-#forms 
+#forms #login-form { outline: none;}
+#forms #login-form button { outline: none;}
